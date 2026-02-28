@@ -1,0 +1,34 @@
+{
+  "project_name": "Hallux-Runner-4D_Simulation",
+  "subject_id": "DZ-407-BIO",
+  "condition": "Gait_Cycle_Toe_Off_Phase",
+  "sampling_rate_hz": 500,
+  "units": "N/cm^2",
+  "simulation_results": [
+    {
+      "trial": "Control_Group_Barefoot",
+      "description": "未佩戴支架：第一跖骨受力缺失，压力代偿至第二、三跖骨",
+      "pressure_distribution": {
+        "hallux": 12.4,
+        "mtp_1": 8.2,
+        "mtp_2_3": 45.8,
+        "midfoot": 15.1,
+        "heel": 18.5
+      },
+      "biomechanical_risk": "High - Medial Longitudinal Arch Collapse"
+    },
+    {
+      "trial": "Experimental_Group_4D_Brace",
+      "description": "佩戴 4D 打印动态支架：压力重分配，第一跖骨力矩恢复",
+      "pressure_distribution": {
+        "hallux": 28.6,
+        "mtp_1": 35.5,
+        "mtp_2_3": 18.2,
+        "midfoot": 8.5,
+        "heel": 9.2
+      },
+      "biomechanical_improvement": "Stabilized - 48% reduction in lateral shift of CoP"
+    }
+  ],
+  "algorithm_log": "Data generated via Biomechanical Finite Element Analysis (FEA) Simulation."
+}
