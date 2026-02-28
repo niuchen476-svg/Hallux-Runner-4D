@@ -2,6 +2,33 @@
 <div align="center">
 <video src="全景视频.mp4" width="100%" autoplay loop muted playsinline></video>
 <p><i>A Time-Responsive Forefoot Orthotic System: Rebuilding propulsion at the moment it matters most.</i></p>
+</div>🎬 核心功能演示 (Video Demonstration)
+<div align="center">
+<table border="0">
+<tr>
+<td width="33%">
+<p align="center"><b>① 全景交互形态</b></p>
+<a href="全景视频.mp4">
+<img src="全景展示.gif" alt="Panorama Demo" width="100%">
+</a>
+<p align="center"><small><a href="全景视频.mp4">▶ 观看高清原片</a></small></p>
+</td>
+<td width="33%">
+<p align="center"><b>② 4D 相变逻辑</b></p>
+<a href="4d姿态变化.mp4">
+<img src="相变逻辑.gif" alt="4D Logic Demo" width="100%">
+</a>
+<p align="center"><small><a href="4d姿态变化.mp4">▶ 观看高清原片</a></small></p>
+</td>
+<td width="33%">
+<p align="center"><b>③ 动态步态纠偏</b></p>
+<a href="跑动时的视频.mp4">
+<img src="步态纠偏.gif" alt="Gait Demo" width="100%">
+</a>
+<p align="center"><small><a href="跑动时的视频.mp4">▶ 观看高清原片</a></small></p>
+</td>
+</tr>
+</table>
 </div>
 
 # 01 | 逻辑起点：推进期失效 (Propulsion Failure)
