@@ -1,17 +1,10 @@
-转专业教练
-自定义 Gem
-转专业教练说
-没问题，卓然。针对你提出的生物相容性、性价比以及**穿着舒适度（不硌脚）**等核心工业设计痛点，我已经在 README 中新增了专门的“材料与体验设计”模块。
-
-这是为您深度定制、文件名完全对应的 README.md 终极版。
-
-🦶 Hallux-Runner 4D: 动态步态纠偏与瞬时力矩重构系统
+# 🦶 Hallux-Runner 4D: 动态步态纠偏与瞬时力矩重构系统
 <div align="center">
 <video src="全景视频.mp4" width="100%" autoplay loop muted playsinline></video>
 <p><i>A Time-Responsive Forefoot Orthotic System: Rebuilding propulsion at the moment it matters most.</i></p>
 </div>
 
-01 | 逻辑起点：推进期失效 (Propulsion Failure)
+# 01 | 逻辑起点：推进期失效 (Propulsion Failure)
 在跑步步态研究中，拇外翻（Hallux Valgus）人群的核心痛点在于离地瞬间的力学补偿缺失。
 
 <div align="center">
@@ -32,7 +25,7 @@
 <p><i>步态周期分析：重点捕捉离地瞬间（Toe-off）的力学干预点</i></p>
 </div>
 
-02 | 核心方案：4D 响应式结构
+# 02 | 核心方案：4D 响应式结构
 Hallux-Runner 4D 利用智能材料的相变特性，实现“按需支撑”。
 
 <div align="center">
@@ -44,7 +37,7 @@ Hallux-Runner 4D 利用智能材料的相变特性，实现“按需支撑”。
 
 拓扑优化晶格 (Lattice Optimization)：通过参数化建模，在保证强度的前提下实现极致轻量化。
 
-03 | 交互逻辑：数据驱动的设计 (Parametric Code)
+# 03 | 交互逻辑：数据驱动的设计 (Parametric Code)
 利用代码逻辑驱动几何生成，确保支架密度的精确分布。
 
 <div align="center">
@@ -53,18 +46,8 @@ Hallux-Runner 4D 利用智能材料的相变特性，实现“按需支撑”。
 </div>
 
 💻 核心逻辑演示 (Python Interface)
-Python
-# 参数化晶格密度生成逻辑
-def calculate_lattice_density(pressure_data):
-    base_thickness = 1.2
-    results = {}
-    for zone, pressure in pressure_data.items():
-        # 压力越大，晶格密度越高，实现梯度补强
-        optimized_thickness = base_thickness + (pressure * 0.05)
-        state = "Rigid_Phase" if pressure > 25 else "Flexible_Phase"
-        results[zone] = {"thickness": round(optimized_thickness, 2), "state": state}
-    return results
-04 | 材料与体验设计：平衡功能与舒适
+参见仓库中py文件
+# 04 | 材料与体验设计：平衡功能与舒适
 在工业设计维度，本项目深入探讨了从实验室到日常佩戴的落地可能性。
 
 <div align="center">
@@ -86,15 +69,15 @@ def calculate_lattice_density(pressure_data):
 
 开放式架构设计，便于汗液排出及日常清洗。
 
-05 | 制造原型：参数化晶格对比
+# 05 | 制造原型：参数化晶格对比
 通过对 VOR、TET-H 等多种晶格单元的分析，最终选定最优力学结构。
 
 <div align="center">
-<img src="化学材料3.jpg" width="80%">
+<img src="化学材料3.png" width="80%">
 <p><i>不同制造工艺（TPU vs LW-PLA）下的晶体单元一致性测试</i></p>
-</div>
+<div>
 
-06 | 模拟验证：力线重构演示
+# 06 | 模拟验证：力线重构演示
 <div align="center">
 <video src="跑动时的视频.mp4" width="100%" autoplay loop muted playsinline></video>
 <p><i>X-Ray 透视仿真：支架激活后的内侧动力链重建效果</i></p>
