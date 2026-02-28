@@ -1,12 +1,12 @@
 
-# 🦶 Hallux-Runner 4D: 动态步态纠偏与瞬时力矩重构系统
+🦶 Hallux-Runner 4D: 动态步态纠偏与瞬时力矩重构系统
 
 > **Rebuilding propulsion at the moment it matters most.**
 > 支撑不应是全时段的束缚，而是在推蹬瞬间（Toe-off）发生的精确介入。
 
 ---
 
-## ## 01 | 逻辑起点：推进期失效 (Propulsion Failure)
+ 01 | 逻辑起点：推进期失效 (Propulsion Failure)
 
 在跑步步态研究中，拇外翻（Hallux Valgus）人群的核心痛点在于**第一射线（First Ray）在推蹬瞬间的刚性丧失**。
 
@@ -16,7 +16,7 @@
 
 ---
 
-## ## 02 | 核心方案：4D 响应式结构
+ 02 | 核心方案：4D 响应式结构
 
 Hallux-Runner 4D 拒绝传统矫形器的“全时段刚性”逻辑。它通过材料物理特性的动态切换，实现功能补强。
 
@@ -25,8 +25,7 @@ Hallux-Runner 4D 拒绝传统矫形器的“全时段刚性”逻辑。它通过
 
 ---
 
-## ## 03 | 交互逻辑：代码驱动的设计 (Parametric Code)
-
+03 | 交互逻辑：代码驱动的设计 (Parametric Code)
 为了实现“按需支撑”，我编写了一个**参数化逻辑脚本**。该脚本能够根据足底压力分布，自动计算支架不同区域的晶格厚度。
 
 ### ### 💻 核心逻辑演示 (Python Interface)
@@ -60,7 +59,7 @@ toe_off_pressure = {"hallux_zone": 35.5, "medial_arch": 15.2, "lateral_edge": 8.
 
 ---
 
-## ## 04 | 模拟验证与数据分析 (Data Simulation)
+ 04 | 模拟验证与数据分析 (Data Simulation)
 
 通过运动力学模拟，对比了干预前后的受力表现：
 
@@ -72,7 +71,7 @@ toe_off_pressure = {"hallux_zone": 35.5, "medial_arch": 15.2, "lateral_edge": 8.
 
 ---
 
-## ## 05 | 方案对比：为什么是 4D 打印？
+ 05 | 方案对比：为什么是 4D 打印？
 
 | 维度 | 传统矫形支架 | **Hallux-Runner 4D** |
 | --- | --- | --- |
@@ -82,7 +81,7 @@ toe_off_pressure = {"hallux_zone": 35.5, "medial_arch": 15.2, "lateral_edge": 8.
 
 ---
 
-## ## 06 | 设计师视角 (Designer's Statement)
+06 | 设计师视角 (Designer's Statement)
 
 **我认为设计的本质是“对底层逻辑的纠偏”。**
 
@@ -93,11 +92,10 @@ toe_off_pressure = {"hallux_zone": 35.5, "medial_arch": 15.2, "lateral_edge": 8.
 
 ---
 
-## ## 07 | 设计师背景与联系方式
+ 07 | 设计师背景
 
 * **姓名**：董卓然
 * **教育背景**：浙江大学
-* **设计理念**：用逻辑缝合生命科学与工业设计。
 
 ---
 
